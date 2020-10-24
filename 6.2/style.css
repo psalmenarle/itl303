@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+    height: auto;
+    background: teal;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background: white;
+    margin: 20px;
+    box-sizing: border-box;
+  }
+.color {animation: col 4s linear infinite;}
+
+@keyframes col {
+0%,51% {fill:red}
+55%,100% {fill:black}
+}
+.color1 {animation: colu 4s linear infinite;}
+
+@keyframes colu {
+0%,71% {fill:black}
+75%,100% {fill:red}
+}
+  @media screen and (max-width:600px){
+      .box{
+          width: 90%;
+      }
+  }
