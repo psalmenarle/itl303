@@ -4,3 +4,4 @@
             <li><a href = "5.1/index.php">Learning Task 5.1</a></li>
             <li><a href = "6.1/index.php">Learning Task 6.1</a></li>
             <li><a href = "6.2/index.php">Learning Task 6.2</a></li>
+	    <li><a href = "midcle/index.php">Midterm CLE</a></li>		
